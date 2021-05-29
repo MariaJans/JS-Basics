@@ -1,5 +1,7 @@
-var name = window.prompt ("Enter your name");
-var surname= window.prompt ("Enter Surname");
-var city= window.prompt ("Enter your city");
 
-window.alert("Name : " + name +"\n"+ "Surname : " + surname +"\n"+ "City : " + city);
+function details (){
+    var name = document.getElementById ("name").value;
+    var surname= document.getElementById ("surname").value;
+    var city= document.getElementById ("city").value;
+    alert("Name : " + name +"\n"+ "Surname : " + surname +"\n"+ "City : " + city);
+}
